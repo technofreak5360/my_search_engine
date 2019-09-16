@@ -19,7 +19,7 @@
 		<input type="submit" name="search" value="Search Now">
 </form>
 	
-	<a href="search.html"><button>Go Back</button></a>
+	<a href="Search.html"><button>Go Back</button></a>
 	
 <?php 
 $con=mysqli_connect("localhost","root","yadav@1153","search");
@@ -31,7 +31,7 @@ $con=mysqli_connect("localhost","root","yadav@1153","search");
 	
 	if($get_value==''){
 	
-	echo "<center><b>Please go back, and write something in the search box!</b></center>";
+		header('location:Search.html');
 	exit();
 	}
 	

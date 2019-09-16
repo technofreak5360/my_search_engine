@@ -1,36 +1,14 @@
-<!DOCTYPE html> 
-<html> 
-	<head>
-		<title>Search Engine in PHP</title> 
-		
-<style type="text/css">
-	
-	body {
-	background:#6495ED;
-	margin-top:-100px;
-	
-	}
-	
-	form {
-	margin:25%;
-	
-	}
-	
-	
-</style>
-	</head> 
-	
-<body> 
-	<form action="result.php" method="get"> 
-		
-		<img src="images/logo.png" />
-		<input type="text" name="user_query" size="80" placeholder="write something to srarch"/> 
-		<input type="submit" name="search" value="Search Now">
-		
-	
-	</form>
-
-
-
-</body>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="search.css">
+  </head>
+  <body>
+    <form class="form" action="result.php" method="GET">
+      <input type="text" id="input" name="user_query" placeholder="Search Here...."><br>
+      <input type="submit" id="submit" name="search" value="Search">
+    </form>
+  </body>
 </html>

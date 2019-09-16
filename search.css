@@ -1,0 +1,27 @@
+#input
+{
+margin-left: 35%;
+margin-top: 20%;
+font-size: 18pt;
+    height: 42px;
+    width : 500px;
+-webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#00abeb), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat;
+
+
+}
+#submit
+{
+    margin-left: 48%;
+    margin-top: 1%;
+    width: 10%;
+    height: 40px;
+    border-radius: 20px;
+    color: LightGreen;
+    font-size: 18pt;
+    background-color: #fff;
+}
+body
+{
+  background-image: url("./images/bg1.jpg");
+  background-size: cover;
+}
